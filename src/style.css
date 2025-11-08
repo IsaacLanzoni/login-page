@@ -69,12 +69,20 @@ button{
 }
 
 .extra{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
     font-size: 28px;
 }
 
 .extra a{
     text-decoration: none;
     color: rgb(79, 29, 108);
+    transition: ease 0.5s;
+}
+
+.extra a:hover{
+    color: antiquewhite;
 }
 
 button:hover{
